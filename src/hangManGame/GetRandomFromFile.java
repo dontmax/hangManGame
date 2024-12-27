@@ -15,7 +15,7 @@ public class GetRandomFromFile {
 	public static void getWordsFromFile() {
 		StringBuilder wordList=new StringBuilder();
 		try {
-			wordsFile=new File("src\\dictionary.txt");
+			wordsFile=new File("src\\Services\\dictionary.txt");
 		} catch (Exception e) {
 			System.out.println("There`s no dictionary");
 		}
